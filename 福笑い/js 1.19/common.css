@@ -1,0 +1,70 @@
+.box {
+    margin         : auto;                 /* サンプル用 中央寄せ */
+    box-sizing     : border-box;           /* 罫線も含む長さ      */
+    background     : #fff;                 /* BOXの背景色         */
+    border         : 1px solid rgb(61, 60, 60);       /* 枠線の指定          */
+    width          : 100%;                /* BOXの幅             */
+    height         : 500px;                /* BOXの高さ           */
+  
+    /* ▼ FlexBoxの定義 */
+    display        : table;                 /* FlexBox定義         */
+    justify-content: space-between;        /* 揃えの定義          */
+    flex-wrap      : wrap;                 /* 折り返し定義        */
+  }
+p.result{
+    text-align: center;
+    color: #f0f8ff;
+    position : relative;
+}
+  
+   /* --- 個別のBOXの定義 --------------------------------------- */
+  .box div {
+    display        : table-cell;
+    box-sizing     : border-box;           /* 罫線も含む長さ      */
+    border         : 2px solid #35557f;    /* 枠線の指定          */
+    width          : 500px;                 /* サンプルBOXの幅     */
+    height         : 500px;                 /* サンプルBOXの幅     */
+    margin         : 2px;                  /* サンプルBOXの間     */
+    vertical-align: middle;
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  }
+  .bigbox{
+    margin: auto;
+    box-sizing     : border-box;           /* 罫線も含む長さ      */
+    background     : #fff;                 /* BOXの背景色         */
+    border         : 1px solid rgb(61, 60, 60);       /* 枠線の指定          */
+    width          : 800px;                /* BOXの幅             */
+    height         : 800px;                /* BOXの高さ           */
+    background: url("透過済み顔パーツ/輪郭.PNG") center center no-repeat;
+}
+
+  .button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:20px;
+    }
+    
+    .button:hover {
+    background-color: #4CAF50;
+    color: white;
+    }
+#demo0 li{
+  left: 600px;
+}
+.Contor{
+  background: url("透過済み顔パーツ/輪郭.PNG") center center no-repeat;
+}
+
+body{
+  background:#f0f8ff;
+}
+.select{
+  background : red;
+}
